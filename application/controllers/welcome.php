@@ -2,6 +2,8 @@
 
 class Welcome extends CI_Controller {
 
+
+
 	/**
 	 * Index Page for this controller.
 	 *
@@ -22,6 +24,23 @@ class Welcome extends CI_Controller {
 	   $this->load->helper('url');
 		$this->load->view('welcome_message');
 	}
+    
+    
+    
+    public  function inicio()
+    {
+       $this->load->helper('url');
+              $this->load->helper('footer');
+        $this->load->view('home'); 
+    }
+      public  function compra()
+    {
+       $this->load->helper('url');
+              $this->load->helper('footer');
+        $this->load->view('compras'); 
+    }
+    
+    
 }
 
 /* End of file welcome.php */

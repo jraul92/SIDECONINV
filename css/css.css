@@ -47,4 +47,35 @@ margin: -35px -35px 30px
 .bar h3{text-align: center ; padding-top: 12px;}
 body{background-color:#ADADAD;}
 
+/* Para footer*/
+
+
+	.centrado{
+	padding-top: 10px;
+	margin: 0 auto;
+	float: none;
+}
+#footer{
+	height: 25%;
+	background-color: #294D19;	
+}
+/*.texto_footer{background-color:blue; }
+*/
+.texto_footer:hover{
+	
+color: #EEEEEE;
+}
+.footer row i:hover{
+	
+}
+
+.foo{
+	color:#D5D5D5;
+	background-color: #323428;
+.foo :hover{
+	color:#17B317;	
+	
+}
+/* Para footer*/
+
 
